@@ -1,0 +1,22 @@
+🧩 How to IDENTIFY a greedy problem
+
+Whenever you solve something, ask these 3 questions:
+
+1. Did I make a choice at each step?
+pick smallest / largest / earliest / cheapest?
+
+👉 If yes → candidate for greedy
+
+2. Did I never reconsider that choice later?
+no backtracking
+no revisiting decisions
+
+👉 If yes → strong greedy signal
+
+3. Is the problem asking for:
+minimum / maximum
+non-overlapping
+scheduling / intervals
+cost optimization
+
+👉 90% chance greedy
