@@ -39,6 +39,7 @@ node* buildTree(node* root){
 
 }
 
+
 //level-wise printing or Breadth-First Search
 void levelOrderTraversal(node* root){
     queue <node*> q;
@@ -75,6 +76,8 @@ void levelOrderTraversal(node* root){
 
     }
 }
+
+
 
 void inorder(node* root){
 
