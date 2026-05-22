@@ -150,6 +150,7 @@ vector <int> topological_sort_DFS(unordered_map<int, list<int>> &adj) {
     }
     return topo_order;
 }
+//topo sort does NOT say leaf must be last
 
 vector <int> topological_sort_BFS(unordered_map<int, list<int>> &adj) {
     unordered_map<int, int> indegree;
