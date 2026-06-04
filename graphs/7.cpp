@@ -186,6 +186,9 @@ int main () {
 }
 
 /*
+//2 finds + one union
+//≈ O(α(n)) ≈ constant
+//inverse Ackermann function
 class DisjointSet {
 public:
     vector<int> parent, rank;
